@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Menu</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Our Menu</h1>
+        </header>
+        <section>
+            <h2>Meals</h2>
+            <ul>
+                <li><strong>Beetroot and feta salad</strong> - $15.00 - Suitable for vegetarians, made with fresh beetroot. <img src="images/beetroot_salad.jpg" alt="Beetroot Salad"></li>
+                <li><strong>Sourdough Rye Sandwich</strong> - $18.00 - Cheese and salad sandwich made with organic, sourdough rye bread. <img src="images/sandwich.jpg" alt="Sourdough Rye Sandwich"></li>
+                <li><strong>Spinach Pie and Salad</strong> - $20.00 - Tasty pie with salad. <img src="images/spinach_pie.jpg" alt="Spinach Pie"></li>
+                <li><strong>Feta pancakes with salad</strong> - $19.50 - Tasty pancake filled with feta and salad. <img src="images/feta_pancakes.jpg" alt="Feta Pancakes"></li>
+            </ul>
+            <h2>Beverages</h2>
+            <ul>
+                <li><strong>Small Coffee</strong> - $3.50</li>
+                <li><strong>Regular Coffee</strong> - $4.00</li>
+                <li><strong>Large Coffee</strong> - $4.50</li>
+                <li><strong>Soda</strong> - $3.00</li>
+                <li><strong>Fresh Juice</strong> - $6.00</li>
+                <li><strong>Bottled Water</strong> - $2.00</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Bryan's Café</p>
+        <script>
+            document.getElementById("currentYear").innerText = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+</html>
